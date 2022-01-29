@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="./css/estilos.css" rel="stylesheet">
+   <title>MATERIAL SISTEMAS DE INFORMACIÓN</title>
+</head>
+<body>
+   <header>
+      <button><a href="#contenedor">INICIO</a></button>
+      <button id="oculta" onClick='ocultarTodo()'>OCULTAR</button>
+      <button id="muestra" onClick='mostrarTodo()'>MOSTRAR</button>
+      <button><a href="#horarios">HORARIOS</a></button>
+      <button><a href="#hs1">S1</a></button>
+      <button><a href="#hs2">S2</a></button>
+      <button><a href="#hs3">S3</a></button>
+      <button><a href="#hs4">S4</a></button>
+      <button><a href="#hs5">S5</a></button>
+      <button><a href="#hs6">S6</a></button>
+      <button><a href="#hs7">S7</a></button>
+      <button><a href="#hs8">S8</a></button>
+      <button><a href="#hs9">S9</a></button>
+      <button><a href="#hs10">S10</a></button>
+   </header>
+   <div><h3>&nbsp;</h3></div>
+   <div id="contenedor">
+
+      <div>
+         <h1><input type="button" id="hs0" value="-" onClick='desplegar("hs0", "presenta")'/>
+            INFORMACIÓN SOBRE LA ASIGNATURA</h1>
+         <section id="presenta">         
+         <p>Soy <strong>Rita de la Torre</strong> (<em>rita.delatorre@upf.edu</em>) y les doy la  más cordial bienvenida a la asignatura <b>Sistemas de Información</b>.</p>
+         <p>Para las sesiones teóricas, utilizaremos la metodología <b>Flipped Classroom</b> (también conocida como aula invertida). Es decir, cada semana, colgaré un video (con su material correspondiente en .pdf y alguna lectura complementaria). Podréis acceder en cualquier momento a estos contenidos y utilizaremos la sesión de clases para realizar ejercicios, interactuar y adelantar las entregas de los <b>Seminarios</b> y los avances del <b>Proyecto Final</b>, que será el diseño de un <em>Plan Estratégico de Sistemas de Información</em> de una Empresa de Nueva Creación.</p>
+         
+         <p>Antes de realizar la Entrega Final del Proyecto, deberéis realizar ciertas actividades de análisis que se irán entregando por hitos o avances, los cuales podréis discutir conmigo durante su elaboración, durante la sesiones teóricas de clase.</p>
+
+         <p><b>Necesito</b> en primer lugar, <b>que forméis grupos de 4-5 participantes</b>, que trabajarán juntos durante toda la asignatura (preferible aunque no obligatoriamente, del mismo grupo de seminario).</p>
+
+         <p>Para la <b>fórmula de evaluación</b> (consultar el <a target="_blank" href="./docs/s0/PlanDocente.docx"><mark>Plan Docente</mark></a>)</p>
+         
+         <p>Las notas de los seminarios grupales así como la de los avances y la entrega del proyecto final, será la misma para todos los miembros del grupo de trabajo.
+         La nota del video de presentación oral del Proyecto Final será individual.
+         La nota de participación en clases también es individual. Para ello, se tomará en cuenta la participación en los Foros y el desarrollo de las actividades durante las sesiones de teoría.</p>
+
+         <p>En la tabla <b>Planificación de las Sesiones y Asistencia</b> os coloco el calendario de clases, donde indico en rojo las sesiones teóricas y en azul las sesiones prácticas (seminarios).</p>
+
+         <h2 id="horarios"><strong>Horarios:</strong></h2> 
+         <p><strong>21865 Sistemes d'Informació (3r/4t curs EMP, 3r trim.)</strong></p>
+         <ul>
+            <li>Martes de 09:00 a 14:00 (3 grupos de seminario)</li>
+            <li>Jueves de 13:00 a 14:30 (teoría)</li>
+            <li>Viernes de 13:00 a 14:30 (teoría)</li>
+         </ul>
+         <p><a target="_blank" href="./docs/s0/presentacionSI2021.mp4"><mark>Presentación asignatura</mark></a></p>
+         </section>
+      </div><div>
+         <h1><input type="button" id="hs1" value="-" onClick='desplegar("hs1", "s1")'/>
+            Semana 1</h1>  
+         <section id="s1">
+            <p>Esta semana comenzamos a estudiar el primer tema sobre <b>Pensamiento Sistémico</b>.<br> 
+            Deberéis responder a los dos <em>ejercicios del Tema 1</em> (en el pdf), en el Foro del Tema 1.</p>
+            <p>Recursos:</p>
+            <ul>
+               <li><a target="_blank" href="./docs/s1/t1ConceptosBasicos.mp4"><mark>Video tema 1</mark></a></li>
+               <li><a target="_blank" href="./docs/s1/t1.pptx"><mark>PDF tema 1</mark></a></li>
+               <li><a target="_blank" href="https://revistas.ucm.es/index.php/DCIN/article/download/50814/47161/">
+                  Una revisión de la Cadena <strong>Datos-Información-
+                  Conocimiento</strong> desde el Pragmatismo de Peirce</a></li>
+                  <li><a target="_blank" href="https://es.wikipedia.org/wiki/S%C3%ADndrome_de_la_rana_hervida">Síndrome de la rana hervida</a></li>
+            </ul>
+            <p>Respecto del proyecto, cada grupo de trabajo (entre 4  y 5 participantes), debatirá y seleccionará una empresa de libre creación.</p>
+            <p>Adelantamos el primer avance del proyecto final (plantilla en Excel) ayudados por el video del Canvas Business Model.<br>Podéis complementar con estos Recursos:</p>
+            <ul>
+               <li><a target="_blank" href="./docs/s1/canvas.mp4"><mark>Video Canvas Business Model</mark></a></li>
+               <li><a target="_blank" href="./docs/s1/canvas.pdf"><mark>PDF Video Canvas Business Model</mark></a></li>
+               <li><a target="_blank" href="./docs/s1/canvas.xlsx"><mark>Excel Canvas Business Model</mark></a></li>
+               <li><a target="_blank" href="https://hbr.org/video/5072479512001/the-explainer-what-is-a-business-model">What is a business model</a></li>
+               <li><a target="_blank" href="https://hbr.org/video/2363593484001/sketch-out-your-hypothesis">Sketch out your hypothesis</a></li>
+            </ul>   
+
+         </section>
+      </div><div>
+         <h1><input type="button" id="hs2" value="-" onClick='desplegar("hs2", "s2")'/>
+            Semana 2</h1>  
+         <section id="s2">
+            <p>En esta semana hablaremos sobre la <b>Estrategia de la Empresa y sobre cómo las TIC pueden ser un  factor de ventaja competitiva</b>. El contenido de esta semana es, asimismo, de gran peso para el proyecto final, puesto que allí se delinea la metodología que deberá seguirse y en la cual se profundizará en las próximas semanas.</p>
+            <h2>Recursos:</h2>
+            <ul>
+               <li><a target="_blank" href="./docs/s2/t2.mp4"><mark>Video tema 2</mark></a></li>
+               <li><a target="_blank" href="./docs/s2/t2.pptx"><mark>PDF tema 2</mark></a></li>
+            </ul>
+         </section>
+      </div><div>
+         <h1><input type="button" id="hs3" value="-" onClick='desplegar("hs3", "s3")'/>
+            Semana 3</h1>
+            <section id="s3">
+               <p>Esta semana el tema de estudio serán los <b>Sistemas Informáticos,      Infraestructura TIC y las Aplicaciones Empresariales</b>. 
+               <p>Asimismo, tendremos el <strong>Primer Seminario</strong> que tratará sobre <em>Open Data  para la búsqueda de información y la limpieza y reestructuración de Datos con Funciones y Herramientas de Excel y Power Query</em>.</p>
+               <p>También daremos inicio al Avance 2 del Proyecto Final: el <b>Análisis Externo de la Empresa</b>.</p>
+               <h2>Recursos:</h2>
+               <ul>
+                  <li><a target="_blank" href="./docs/s3/t3.mp4"><mark>Video tema 3</mark></a></li>
+                  <li><a target="_blank" href="./docs/s3/t3.pptx"><mark>PDF tema 3</mark></a></li>
+                  <li><a target="_blank" href="./docs/s3/Sem1.pptx"><mark>PDF de apoyo Seminario 1</mark></a></li>
+                  <li>Archivos Seminario 1:&nbsp;&nbsp; 
+                     <a target="_blank" href="./docs/s3/201801_ventas.xlsx"><mark>1</mark></a>, 
+                     <a target="_blank" href="./docs/s3/201802_ventas.xlsx"><mark>2</mark></a>, 
+                     <a target="_blank" href="./docs/s3/201803_ventas.xlsx"><mark>3</mark></a>, 
+                     <a target="_blank" href="./docs/s3/201804_ventas.xlsx"><mark>4</mark></a>, 
+                     <a target="_blank" href="./docs/s3/201805_ventas.xlsx"><mark>5</mark></a>, 
+                     <a target="_blank" href="./docs/s3/201806_ventas.xlsx"><mark>6</mark></a>.</li><br>
+                  <li><a target="_blank" href="./docs/s3/AnalisisExterno.xlsx"><mark>Análisis externo (Excel)</mark></a></li>
+                  <li>Videos complementarios. Avance 2, proyecto final</li>
+                  <ul>
+                  <li><a target="_blank" href="https://hbr.org/video/3590615226001/the-explainer-porters-five-forces">Porters five forces</a></li>
+                  <li><a target="_blank" href="https://hbr.org/video/2226587624001/the-five-competitive-forces-that-shape-strategy">The five competitive forces that shapes strategy</a></li>
+                  <li><a target="_blank" href="https://hbr.org/video/2227114775001/forces-that-shape-new-industries">Forces that shapes new industries</a></li>
+                  </ul>
+               </ul>
+               <p><em>Acá hago un Cuestionario online sobre Open Data</em></p>
+            </section>
+      </div><div>
+         <h1><input type="button" id="hs4" value="-" onClick='desplegar("hs4", "s4")'/>
+            Semana 4</h1>  
+         <section id="s4">
+            <p>Esta semana hablaremos sobre <b>Virtualización y Cloud Computing</b>.</p> 
+            <p>Asimismo, tendremos el segundo seminario, una <b>Master Class de Tablas Dinámicas en Excel</b>.</p>
+            <p>También comenzaremos a trabajar en el Avance 3 del Proyecto Final: el <b>Análisis Interno de la Empresa</b>.</p>
+            <h2>Recursos:</h2>
+            <ul>
+               <li><a target="_blank" href="./docs/s4/t4.mp4"><mark>Video tema 4</mark></a></li>
+               <li><a target="_blank" href="./docs/s4/t4.pptx"><mark>PDF tema 4</mark></a></li>
+               <li><a target="_blank" href="./docs/s4/GartnerTopTechTrendsEbook2021.pdf">Informe Gartner Tendencias TIC</a></li>
+               <li><a target="_blank" href="./docs/s4/sem2TablasDinamicas.xltx"><mark>Plantilla Tablas Dinámicas</mark></a></li>
+               <li><a target="_blank" href="./docs/s4/sem2Actividad.pdf"><mark>PDF Actividad Seminario 2</mark></a></li>
+               <li><a target="_blank" href="./docs/s4/AnalisisInterno.xlsx"><mark>Excel Análisis Interno</mark></a></li>
+            </ul>
+         </section>
+      </div><div>
+         <h1><input type="button" id="hs5" value="-" onClick='desplegar("hs5", "s5")'/>
+            Semana 5</h1>  
+         <section id="s5">
+            <p>Esta semana veremos 2 temas sobre datos:</p>
+            <ul>
+               <li>Bases de Datos Relacionales</li>
+               <li>Business Intelligence y Big Data</li>
+            </ul>
+            <p>En el seminario de esta semana, haremos una <b>APP Móvil con MIT App Inventor</b></p>
+            <h2>Recursos:</h2>
+            <ul>
+               <li><a target="_blank" href="./docs/s5/t5.pptx"><mark>PDF Tema 5</mark></a></li>
+               <li><a target="_blank" href="
+                  https://www.youtube.com/watch?v=yoeV4Ex8C8U">Conceptos sobre Bases de Datos</a></li>
+                  <li><a target="_blank" href="./docs/s5/t6.pptx"><mark>PDF Tema 6</mark></a></li>
+               <li><a target="_blank" href="./docs/s5/t6.mp4"><mark>Video tema 6</mark></a></li>
+               <li><a target="_blank" href="https://appinventor.mit.edu/explore/ai2">MIT App Inventor</a></li>
+               <li><a target="_blank" href="./docs/s5/sem3Guia.pdf"><mark>PDF Guia seminario 3</mark></a></li>
+               <p><img src="./docs/s5/xica.png"/></p>
+            </ul>
+         </section>
+      </div><div>
+         <h1><input type="button" id="hs6" value="-" onClick='desplegar("hs6", "s6")'/>
+            Semana 6</h1>  
+         <section id="s6">
+            <p>Semana del parcial. Además, en el seminario, haremos un <b>Dashboard con Google Data Studio</b>.</p>
+            <h2>Recursos:</h2>
+            <ul>
+               <li><a target="_blank" href="./docs/s6/sem4Guia.pptx"><mark>PDF Guia Seminario 4</mark></a></li>
+               <li><a target="_blank" href="./docs/s6/ventas.ods"><mark>Google OpenCalc Datos</mark></a></li>
+               <li><a target="_blank" href="https://datastudio.google.com/overview">Google Data Studio</a></li>
+            </ul>
+         </section>
+      </div><div>
+         <h1><input type="button" id="hs7" value="-" onClick='desplegar("hs7", "s7")'/>
+            Semana 7</h1>  
+         <section id="s7">
+            <p>Esta semana hablaremos sobre <b>Negocios Electrónicos y Comercio Electrónico</b>.</p>
+            <p>Avanzaremos en el proyecto con la </b>Selección de la Estrategia de la Empresa</b>.</p>
+            <h2>Recursos:</h2>
+            <ul>
+               <li><a target="_blank" href="./docs/s7/t7.mp4"><mark>Video Tema 7</mark></a></li>
+               <li><a target="_blank" href="./docs/s7/t7.pptx"><mark>PDF Tema 7</mark></a></li>
+               <li><a target="_blank" href="./docs/s7/estrategia.xlsx"><mark>Excel Selección Estrategia</mark></a></li>
+            </ul>
+         </section>
+      </div><div>
+         <h1><input type="button" id="hs8" value="-" onClick='desplegar("hs8", "s8")'/>
+            Semana 8</h1>  
+         <section id="s8">
+            <p>Esta semana estudiaremos estrategias de <b>Marketing Digital</b>.</p>
+            <p>Respecto del proyecto avanzaremos con la <b>Evaluación y selección del Software</b>.</p>
+            <p>En el seminario, crearemos una <b>Tienda Online con Ecwid</b></p>
+            <h2>Recursos:</h2>
+            <ul>
+               <li><a target="_blank" href="./docs/s8/t8.pptx"><mark>PDF Tema 8</mark></a></li>
+               <li><a target="_blank" href="./docs/s8/estudioAnualRedesSociales2021.pdf">PDF Estudio Anual Redes Sociales 2021</a></li>
+               <li><a target="_blank" href="./docs/s8/seleccionSoftware.xlsx"><mark>Excel Evaluación y selección del Software </mark></a></li>
+               <li><a target="_blank" href="https://www.ecwid.com/es/">Ecwid</a></li>
+               <li><a target="_blank" href="./docs/s8/sem5Guia.pptx"><mark>PDF Guía seminario Tienda Online</mark></a></li>
+            </ul>
+         </section>
+      </div><div>
+         <h1><input type="button" id="hs9" value="-" onClick='desplegar("hs9", "s9")'/>
+            Semana 9</h1>  
+         <section id="s9">
+            <p>Pasamos a estudiar el <b>Ciclo de Vida del Software. Evaluación, Costes</b></p>
+            <p>Respecto del proyecto haremos un ejercicio de cálculo de TCO para evaluar la parte cuantitativa de un software comercial y avanzar con la </b>Evaluación y selección del Software</b>.</p>
+            <p>En el último seminario, haremos una <b>Campaña de E-Mail Marketing con Mailchimp</b></p>
+            <h2>Recursos:</h2>
+            <ul>
+               <li><a target="_blank" href="./docs/s9/t9a.pptx"><mark>PDF Tema 9 (parte 1)</mark></a></li>
+               <li><a target="_blank" href="./docs/s9/t9b.pptx"><mark>PDF Tema 9 (parte 2)</mark></a></li>
+               <li><a target="_blank" href="./docs/s9/tcoplantilla.xlsx"><mark>Excel Cálculo TCO</mark></a></li>
+               <li><a target="_blank" href="./docs/s9/sem6Guia.pptx"><mark>PDF Guía seminario E-Mail Marketing</mark></a></li>
+               <li><a target="_blank" href="https://mailchimp.com/">Mailchimp</a></li>
+            </ul>
+         </section>
+      </div><div>
+         <h1><input type="button" id="hs10" value="-" onClick='desplegar("hs10", "s10")'/>
+            Semana 10</h1>  
+         <section id="s10">
+            <p>Por último estudiaremos el tema de <b>Seguridad Informática y Seguridad de la Información</b></p>
+            <p>El resto de tiempo de la asignatura, lo utilizaremos para terminar el proyecto final</b></p>
+            <h2>Recursos:</h2>
+            <ul>
+               <li><a target="_blank" href="./docs/s10/t10.pptx"><mark>PDF Tema 10</mark></a></li>
+               <li><a target="_blank" href="https://youtu.be/_PsB2e0U5FU">
+                  Video: Gestionar la Seguridad</a></li>
+               <p><em>Del contenido del video se hace un debate</em></p>
+               <li><a target="_blank" href="./docs/s10/GuiónDelProyectoFinal.pdf"><mark>PDF Guión del proyecto final</mark></a></li>
+            </ul>
+         </section>
+      </div>
+   </div> <!--contenedor -->
+   <script src="./js/js.js"></script>
+</body>
+</html>
